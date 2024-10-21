@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link href="message_style.css" type="text/css" rel="stylesheet" />
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+
+    <div id="wrapper">
+
+        <div id="sms_div">
+            <form method="post" action="send_message.php">
+                <br>
+                <input type="text" name="recievers_no" placeholder="Enter Contact Number">
+                <br><br>
+                <textarea name="message" placeholder="Enter Message Text"style="width:200px; height:200px;"></textarea>
+                <br><br>
+                <input type="submit" name="send_message" value="SEND MESSAGE"  onclick="alert('message sent')">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
